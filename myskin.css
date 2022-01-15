@@ -10,7 +10,6 @@ No refunds on digital goods, If you have questions concerning your order please 
     width: 781px;
     background-position-x: 0px;
     background-repeat:no-repeat;
-    animation: colorhue 20s linear infinite;
 }
 .custom.disconnected { 
     background: url(disconnected.png);
@@ -286,6 +285,21 @@ No refunds on digital goods, If you have questions concerning your order please 
 .custom .trigger-button.left.pressed{  
 }
 .custom .trigger-button.right.pressed{  
+}
+
+.custom  .quadrant {
+    position: absolute;
+    no-repeat;
+    background: url(Galaxyhue.png) no-repeat;
+    height: 657px;
+    width: 781px;
+    animation: colorhue 20s linear infinite;
+
+}
+
+.custom  .p0, .p1, .p2, .p3 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 @keyframes colorhue{
     from {-webkit-filter: hue-rotate(0deg); filter: hue-rotate(0deg);}
