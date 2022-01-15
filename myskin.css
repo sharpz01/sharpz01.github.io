@@ -10,7 +10,7 @@ No refunds on digital goods, If you have questions concerning your order please 
     width: 781px;
     background-position-x: 0px;
     background-repeat:no-repeat;
-    animation: colorhue 5s linear infinite;
+    animation: colorhue 20s linear infinite;
 }
 .custom.disconnected { 
     background: url(disconnected.png);
